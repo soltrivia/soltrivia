@@ -1,0 +1,109 @@
+.pk-page {
+  position: relative;
+  background: #0368b1;
+
+  .timer {
+    position: absolute;
+    top: 0px;
+    left: 50%;
+    margin-left: -0.4rem;
+    width: 0.8rem;
+    font-size: 0.3rem;
+    text-align: center;
+    color: #eb5344;
+    height: 0.4rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    .ant-progress{
+      .ant-progress-text{
+        color: #e2733d;
+      }
+    }
+  }
+
+  .question {
+    text-align: center;
+  }
+
+  .answerBg {
+    cursor: pointer;
+    display: inline-block;
+    width: 60%;
+    height: 0.14rem;
+    line-height: 0.14rem;
+    color: rgb(72, 110, 197);
+    text-align: center;
+    background-color: #fff;
+    padding: 0.05rem;
+    font-size: 0.1rem;
+    border: none;
+    outline: none;
+    margin: 0.02rem auto;
+    border-radius: 0.04rem;
+
+    &:hover{
+      background: #93bbff;
+      color: white;
+    }
+
+  }
+
+  .PKResult {
+
+    .success,
+    .fail {
+      width: 0.9rem;
+      height: 0.9rem;
+      margin: 0rem auto;
+      margin-top: -0.4rem;
+      border: 0.05rem solid #fff;
+      background-color: #fbd115;
+      text-align: center;
+      border-radius: 50%;
+    }
+
+    .userL,
+    .userR {
+      width: 55%;
+      height: 0.9rem;
+      top: 0.75rem;
+      position: absolute;
+      display: block;
+      font-size: 0.3rem;
+      text-align: center;
+    }
+
+     .resultText {
+      display: inline-block;
+      background-color: #f27241;
+      font-size: 0.2rem;
+      text-align: center;
+      padding: 0.03rem 0.15rem;
+      margin: -0.1rem auto 0rem auto;
+      border-radius: 0.3rem;
+    }
+
+  }
+
+  .pkUserImg{
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  #rightScore,#leftScore{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 1.9rem;
+  }
+
+
+
+}
+
+.pk-content{
+  background-color: #0368b1 !important;
+}

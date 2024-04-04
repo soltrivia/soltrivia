@@ -1,0 +1,51 @@
+
+.layout-wrap{
+  .layout-wrap-header{
+    background-color: #0368b1;
+    height: 0.5rem;
+    line-height: 0.5rem;
+    text-align: center;
+    position: fixed;
+    width: 100%;
+    top: 0px;
+    padding: 0px 0.1rem;
+    box-sizing: border-box;
+    z-index: 1000;
+    max-width: 800px;
+    .icon-wrap{
+      line-height: 0.5rem;
+      position: absolute;
+      left: 0.1rem;
+    }
+    .wallet-wrap{
+      position: absolute;
+      right: 0.1rem;
+      top: 0px;
+      height: 0.5rem;
+      display: flex;
+      align-items: center;
+    }
+  }
+
+  .layout-wrap-content{
+    // background-color: rgba(255, 255, 255, 0);
+    background-color: #a0d9f6;
+    margin-top: 0.5rem;
+    overflow-x: hidden;
+
+  }
+
+  .go-back {
+    font-size: 0.30rem;
+    position: absolute;
+    left: 0.2rem;
+    top: 40%;
+    width: 0.11rem;
+    height: 0.11rem;
+    border: 0.03rem solid #fff;
+    border-right-color: rgba(255, 255, 255, 0);
+    border-bottom-color: rgba(255, 255, 255, 0);
+    transform: rotate(-45deg);
+    cursor: pointer;
+}
+}

@@ -1,0 +1,47 @@
+body{
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  background: #e4e4e4;
+  margin: 0px;
+  padding: 0px;
+  font-size: 0.14rem;
+  color: #fff;
+  overflow-x: hidden;
+}
+
+#container{
+  width: 100%;
+  max-width: 800px;
+  height: fit-content;
+  min-height: 100vh;
+  background: #0368b1;
+  position: relative;
+  box-shadow: 0px 0px 10px 0px #363636;
+}
+
+
+.wallet-adapter-modal{
+  z-index: 100000;
+}
+
+.wallet-adapter-modal-container{
+  margin: 1rem auto 0px auto;
+}
+
+.wallet-adapter-button-trigger {
+  background-color: #263e67;
+}
+
+::-webkit-scrollbar {
+  width: 6px;
+}
+::-webkit-scrollbar-track {
+  background: #a0d9f6;
+  border-radius: 2px;
+}
+::-webkit-scrollbar-thumb {
+  background: #3f69b0;
+  border-radius: 10px;
+}

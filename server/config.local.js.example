@@ -1,0 +1,17 @@
+module.exports = {
+    mysql: {
+        host: 'localhost',
+        port: 3306,
+        user: '',
+        pass: '',
+        db: '',
+        char: 'utf8mb4'
+    },
+    serverHost: 'localhost',
+    tunnelServerUrl: '',
+    tunnelSignatureKey: '',
+    qcloudAppId: '',
+    qcloudSecretId: '',
+    qcloudSecretKey: '',
+    wxMessageToken: ''
+}
